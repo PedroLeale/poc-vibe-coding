@@ -1,6 +1,7 @@
+.env
 .vscode/
 node_modules/
-.env
+generated-diagrams/
 
 # Compiled TypeScript files
 *.js

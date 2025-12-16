@@ -2,7 +2,8 @@
 
 ## Prerequisites
 
-1. Configure `mcp.json` in VS Code or your preferred IDE.
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
+2. Configure `mcp.json` in VS Code or your preferred IDE.
    * For VS Code, place the JSON file in the `.vscode/` directory.
 
 ## Adding an MCP Server

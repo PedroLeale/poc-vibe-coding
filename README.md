@@ -13,6 +13,7 @@
 ## Example: AWS Diagrams Server
 
 3. For this example, we will use the pip package **`awslabs.aws-diagram-mcp-server`**.
+   1. This diagram package also needs [Graphviz](https://www.graphviz.org/)
 
 4. Follow the setup instructions to configure your AWS credentials (profile, region, etc.).
 

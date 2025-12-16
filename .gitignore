@@ -1,1 +1,13 @@
 .vscode/
+node_modules/
+.env
+
+# Compiled TypeScript files
+*.js
+!jest.config.js
+!lambda/**/*.js
+*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

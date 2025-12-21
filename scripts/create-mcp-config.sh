@@ -9,7 +9,7 @@ cat > .vscode/mcp.json << 'EOF'
  "servers": {
   "awslabs.aws-diagram-mcp-server": {
    "type": "stdio",
-   "command": "/home/missio/.local/bin/uvx",
+   "command": "uvx",
    "args": [
     "awslabs.aws-diagram-mcp-server==1.0.13"
    ],
@@ -20,7 +20,7 @@ cat > .vscode/mcp.json << 'EOF'
    }
   },
   "awslabs.cdk-mcp-server": {
-   "command": "/home/missio/.local/bin/uvx",
+   "command": "uvx",
    "args": [
     "awslabs.cdk-mcp-server==1.0.10"
    ],
@@ -31,7 +31,7 @@ cat > .vscode/mcp.json << 'EOF'
    "type": "stdio"
   },
   "awslabs-aws-pricing-mcp-server": {
-   "command": "/home/missio/.local/bin/uvx",
+   "command": "uvx",
    "args": [
     "awslabs.aws-pricing-mcp-server==1.0.20"
    ],
